@@ -1,2 +1,3 @@
 # rutgers-course-sniper
-Course sniper for RU written in JavaScript
+
+Course sniper for RU written in Python
