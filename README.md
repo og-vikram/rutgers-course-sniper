@@ -1,3 +1,3 @@
-# rutgers-course-sniper
+# Rutgers Course Sniper
 
-Course sniper for RU written in Python
+Course sniper for RU written in Python, utilizing Pushover for Push Notifications
