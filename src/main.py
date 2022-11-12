@@ -50,9 +50,11 @@ for course in courses:
                 "https://api.pushover.net/1/messages.json", data=payload, headers=headers)
             if (r.status_code == 200):
                 print("Push notification sent!")
+                # stop tracking index
                 indexes.remove(section['index'])
                 with open("indexes.md", "w") as f:
                     for line in indexes:
                         f.write(line)
             else:
+                # print error
                 print(r.text)
